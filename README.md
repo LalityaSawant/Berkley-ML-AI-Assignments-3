@@ -9,7 +9,8 @@ In this application, we will explore a dataset from the UCI Machine Learning rep
 ### **Problem Statement:**
 The data is related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe to a term deposit (variable y). 
 
-Solution notebook link: Practical_Application_Assignment_17_1.ipynb: 
+**Solution notebook link:** [Practical_Application_Assignment_17_1.ipynb: ](https://github.com/LalityaSawant/Berkley-ML-AI-Assignments-3/blob/master/Practical_Application_Assignment_17_1.ipynb)
+
 To achieve this, a comprehensive analysis of the dataset is imperative. It includes below steps:
 
 **Data Cleaning:** A meticulous review of the dataset to identify and rectify any inconsistencies or inaccuracies.
