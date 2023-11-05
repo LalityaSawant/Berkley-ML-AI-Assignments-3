@@ -7,7 +7,10 @@
 In this application, we will explore a dataset from the UCI Machine Learning repository. The data is from a Portuguese banking institution and is a collection of the results of multiple marketing campaigns. Our goal is to compare the performance of 4 different classifiers (k-nearest neighbors, logistic regression, decision trees, and support vector machines) using this dataset.
 
 ### **Problem Statement:**
-The data is related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y). To achieve this, a comprehensive analysis of the dataset is imperative. It  includes below steps:
+The data is related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe to a term deposit (variable y). 
+
+Solution notebook link: Practical_Application_Assignment_17_1.ipynb: 
+To achieve this, a comprehensive analysis of the dataset is imperative. It includes below steps:
 
 **Data Cleaning:** A meticulous review of the dataset to identify and rectify any inconsistencies or inaccuracies.
 
