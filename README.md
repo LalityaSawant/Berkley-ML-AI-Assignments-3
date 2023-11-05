@@ -51,58 +51,66 @@ memory usage: 600.6+ KB
 #####                                                  Author - Lalitya Sawant
 ## Which classifier performed better on this dataset?
 #### Accuracy
-|	  |SMV_accuracy	|LogisticReg_accuracy	|DecisiionTr_accuracy	|KNN_accuracy|
-|0	|0.890936	    |0.882093           	|0.866618           	|0.883567    |
+| SMV Accuracy | LogisticReg Accuracy | DecisionTree Accuracy | KNN Accuracy |
+|--------------|-----------------------|-----------------------|--------------|
+| 0.890936     | 0.882093              | 0.866618              | 0.883567     |
 
 #### Training time taken:
-|   |SMV_train_time	|LogisticReg_train_time	|DecisiionTr__train_time	|KNN_train_time|
-|0	|0.138083	      |0.009874           	  |0.013814               	|0.002116      |
+| SMV_train_time | LogisticReg_train_time | DecisionTree_train_time | KNN_train_time |
+|----------------|-------------------------|-------------------------|----------------|
+| 0.138083       | 0.009874                | 0.013814                | 0.002116       |
 
 ### **Details:**
 #### KNN:
-| Metric           | KNN                |
-|------------------|--------------------|
-| Training time    | 0.0021 seconds     |
-| KNN accuracy     | 0.8836             |
-| Precision        | 0.8900             |
-| Recall           | 0.9900             |
-| F1-score         | 0.9400             |
-| Support (Class 0)| 1201               |
-| Support (Class 1)| 156                |
-| Accuracy         | 0.8800             |
-| Macro avg        | 0.6800             |
-| Weighted avg     | 0.8400             |
+Training time KNN: 0.0021157264709472656
+KNN accuracy: 0.8835666912306559
+              precision    recall  f1-score   support
+
+           0       0.89      0.99      0.94      1201
+           1       0.46      0.08      0.14       156
+
+    accuracy                           0.88      1357
+   macro avg       0.68      0.54      0.54      1357
+weighted avg       0.84      0.88      0.85      1357
 
 #### SVM:
 Training time SVM: 0.13808298110961914
 SVM accuracy is: 0.8909358879882093
               precision    recall  f1-score   support
+
            0       0.90      0.99      0.94      1201
            1       0.65      0.11      0.19       156
+
     accuracy                           0.89      1357
-    macro avg      0.77      0.55      0.56      1357
-    weighted avg   0.87      0.89      0.85      1357
+   macro avg       0.77      0.55      0.56      1357
+weighted avg       0.87      0.89      0.85      1357
+
 
 #### Logistic Regression:
 Training time Logistic Regression: 0.00987386703491211
 Logistic Regression accuracy is: 0.8820928518791452
               precision    recall  f1-score   support
+
            0       0.90      0.98      0.94      1201
            1       0.46      0.13      0.21       156
+
     accuracy                           0.88      1357
-    macro avg      0.68      0.56      0.57      1357
-    weighted avg   0.85      0.88      0.85      1357
+   macro avg       0.68      0.56      0.57      1357
+weighted avg       0.85      0.88      0.85      1357
+
 
 #### Decision tree:
 Training time Decision tree: 0.013813972473144531
 Decision Tree accuracy is: 0.866617538688283
               precision    recall  f1-score   support
+
            0       0.92      0.93      0.92      1201
            1       0.42      0.40      0.41       156
+
     accuracy                           0.87      1357
-    macro avg      0.67      0.67      0.67      1357
-    weighted avg   0.86      0.87      0.87      1357
+   macro avg       0.67      0.67      0.67      1357
+weighted avg       0.86      0.87      0.87      1357
 
 
 ### **Conclusion:**
-#### Comparing different models we can see that SVM gives a good accuracy over others but also the traning time taken in the most out of 4 models. On other hand KNN model takes the lowest time to train the model but the accuracy is low.
+#### Comparing different models we can see that SVM gives a good accuracy over others but also the traning time taken in the most out of 4 models. On the other hand, KNN model takes the lowest time to train the model but the accuracy is low.
