@@ -60,14 +60,18 @@ memory usage: 600.6+ KB
 
 ### **Details:**
 #### KNN:
-Training time KNN: 0.0021157264709472656
-KNN accuracy: 0.8835666912306559
-              precision    recall  f1-score   support
-           0       0.89      0.99      0.94      1201
-           1       0.46      0.08      0.14       156
-    accuracy                           0.88      1357
-    macro avg      0.68      0.54      0.54      1357
-    weighted avg   0.84      0.88      0.85      1357
+| Metric           | KNN                |
+|------------------|--------------------|
+| Training time    | 0.0021 seconds     |
+| KNN accuracy     | 0.8836             |
+| Precision        | 0.8900             |
+| Recall           | 0.9900             |
+| F1-score         | 0.9400             |
+| Support (Class 0)| 1201               |
+| Support (Class 1)| 156                |
+| Accuracy         | 0.8800             |
+| Macro avg        | 0.6800             |
+| Weighted avg     | 0.8400             |
 
 #### SVM:
 Training time SVM: 0.13808298110961914
