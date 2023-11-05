@@ -1,13 +1,13 @@
 # Repository: Berkley-ML-AI-Assignment-3
 
-## This repository contains assigmnet completed for comparing the performance of the classifiers (k-nearest neighbors, logistic regression, decision trees, and support vector machines) on marketing of bank products data collected over the telephone.
+## This repository contains an assignment completed for comparing the performance of the classifiers (k-nearest neighbors, logistic regression, decision trees, and support vector machines) on the marketing of bank products data collected over the telephone.
 
 ### **Overview**
 
-In this application, we will explore a dataset from the UCI Machine Learning repository. The data is from a Portuguese banking institution and is a collection of the results of multiple marketing campaigns. Our goal is to compare performance of 4 different classifiers (k-nearest neighbors, logistic regression, decision trees, and support vector machines) using this dataset.
+In this application, we will explore a dataset from the UCI Machine Learning repository. The data is from a Portuguese banking institution and is a collection of the results of multiple marketing campaigns. Our goal is to compare the performance of 4 different classifiers (k-nearest neighbors, logistic regression, decision trees, and support vector machines) using this dataset.
 
 ### **Problem Statement:**
-The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y). To achieve this, a comprehensive analysis of the dataset is imperative. It  includes below steps:
+The data is related to direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y). To achieve this, a comprehensive analysis of the dataset is imperative. It  includes below steps:
 
 **Data Cleaning:** A meticulous review of the dataset to identify and rectify any inconsistencies or inaccuracies.
 
@@ -17,7 +17,7 @@ The data is related with direct marketing campaigns (phone calls) of a Portugues
 
 **Text Data Transformation:** Converting textual data into a format understandable by the predictive model.
 
-Once these preprocessing steps are accomplished, the subsequent task distributing the data in training and testing set and then apply 4 different classifiers and comparing its performance. I validated the performance by comparing the accuracy and time to train these models.
+Once these preprocessing steps are accomplished, the subsequent task is to distribute the data in the training and testing set and then apply 4 different classifiers and compare their performance. I validated the performance by comparing the accuracy and time to train these models.
 
 ### **Some insights on Data:**
 Original shape of data: (4521, 17)
@@ -49,7 +49,7 @@ memory usage: 600.6+ KB
 
 ## **Analysis Report:**                         
 #####                                                  Author - Lalitya Sawant
-## Which calssifier performed better on this dataset?
+## Which classifier performed better on this dataset?
 #### Accuracy
 |	  |SMV_accuracy	|LogisticReg_accuracy	|DecisiionTr_accuracy	|KNN_accuracy|
 |0	|0.890936	    |0.882093           	|0.866618           	|0.883567    |
@@ -62,18 +62,16 @@ memory usage: 600.6+ KB
 #### KNN:
 Training time KNN: 0.0021157264709472656
 KNN accuracy: 0.8835666912306559
-              precision    recall  f1-score   support
-
-           0       0.89      0.99      0.94      1201
-           1       0.46      0.08      0.14       156
-
-    accuracy                           0.88      1357
-   macro avg       0.68      0.54      0.54      1357
-weighted avg       0.84      0.88      0.85      1357
+|              |precision    |recall  |f1-score   |support |
+|           0  |     0.89    |  0.99  |    0.94   |   1201 |
+|           1  |     0.46    |  0.08  |    0.14   |    156 |
+|    accuracy  |             |        |    0.88   |   1357 |
+|   macro avg  |     0.68    |  0.54  |    0.54   |   1357 |
+|weighted avg  |     0.84    |  0.88  |    0.85   |   1357 |
 
 #### SVM:
 Training time SVM: 0.13808298110961914
-SVM accuracy is : 0.8909358879882093
+SVM accuracy is: 0.8909358879882093
               precision    recall  f1-score   support
 
            0       0.90      0.99      0.94      1201
@@ -85,7 +83,7 @@ weighted avg       0.87      0.89      0.85      1357
 
 #### Logistic Regression:
 Training time Logistic Regression: 0.00987386703491211
-Logistic Regression accuracy is : 0.8820928518791452
+Logistic Regression accuracy is: 0.8820928518791452
               precision    recall  f1-score   support
 
            0       0.90      0.98      0.94      1201
@@ -97,7 +95,7 @@ weighted avg       0.85      0.88      0.85      1357
 
 #### Decision tree:
 Training time Decision tree: 0.013813972473144531
-Decision Tree accuracy is : 0.866617538688283
+Decision Tree accuracy is: 0.866617538688283
               precision    recall  f1-score   support
 
            0       0.92      0.93      0.92      1201
